@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #2E8B57;
+    color: #fff;
+    padding: 1rem;
+    font-family: Poppins, sans-serif;
+    font-size: 1.5rem;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-title {
+    margin: 0;
+    font-size: 1.5rem;
+    flex: 1;
+}
+
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar-item {
+    margin-right: 1rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-item:hover {
+    color: #FFD700;
+}

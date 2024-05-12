@@ -1,7 +1,8 @@
-import React from 'react'
-
+import {Nav} from '../../components/nav/Nav.jsx'
 export const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div>
+      <Nav/>
+    </div>
   )
 }
