@@ -2,6 +2,7 @@ import {Nav} from '../../components/nav/Nav.jsx'
 import { useState, useEffect } from 'react'
 import { obtenerPublicaciones } from '../../services/api.jsx';
 import { Publicacion } from '../../components/publicacion/Publicacion.jsx';
+import { Footer} from '../../components/footer/Footer.jsx'
 
 export const Dashboard = () => {
   const [publicaciones, setPublicaciones] = useState([]);
@@ -27,6 +28,7 @@ export const Dashboard = () => {
     <div>
       <Nav/>
       <Publicacion publicaciones={publicaciones} />
+      <Footer/>
     </div>
     </>
   )
