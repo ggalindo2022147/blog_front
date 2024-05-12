@@ -1,0 +1,25 @@
+.publicacion-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.publicacion-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+}
+
+.publicacion-card h2 {
+    margin-top: 0;
+}
+
+.publicacion-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
